@@ -3,7 +3,6 @@ import {
   Menu
 } from 'lucide-react'; 
 
-// Import Firebase (pastikan path config benar)
 import { auth } from './config/firebase'; 
 import { onAuthStateChanged, signInWithPopup, GoogleAuthProvider, signOut } from 'firebase/auth';
 
